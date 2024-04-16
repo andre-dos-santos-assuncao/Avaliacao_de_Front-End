@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif, Arial;
+    background-color: #ffd3c0;
+}
+
+header {
+    background-color: #FFC4AA;
+}
+
+header h1 {
+    font-size: 65px;
+    position: relative;
+    padding: 80px;
+    margin-left: 8%;
+    color: #ff3e6f;
+}
+
+header ul li a{
+    position: absolute;
+    text-decoration: none;
+    top: 110px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #FA5D84; 
+    padding: 2em;
+}
+
+header ul li:first-child{
+    margin-left: 70%;
+}
+
+header ul li:last-child{
+    margin-left: 65%;
+}
+
+main .sobre h2 {
+    padding-top: 2em;
+    text-align: left;
+    margin-left: 22%;
+    font-size: 50px;
+    color: #ff3e6f;
+    position: absolute;
+}
+
+main .sobre p {
+    padding: 0 10em;
+    font-size: 25px;
+    text-align: justify;
+    padding-top: 7em;
+    padding-right: 60%;
+    color: #FA5D84;
+    margin: 1em;
+    position: absolute;
+}
+
+main .sabores h2 {
+    padding-top: 2em;
+    text-align: left;
+    margin-left: 65%;
+    font-size: 50px;
+    color: #ff3e6f;
+    position: absolute;
+}
+
+main .sabores ul {  
+    margin-left: 65%;
+    padding-top: 7em;
+    font-size: 25px;
+}
+
+main .sabores ul li {  
+    padding-top: 0.5em;
+    color: #ff3e6f;
+    font-weight: bold;
+}
+
+main .sabores ul li::before {  
+    content: "★ ";
+}
