@@ -5,6 +5,7 @@ body {
 
 header {
     background-color: #FFC4AA;
+    margin: 0px 0px 3em 0px;
 }
 
 header h1 {
@@ -31,6 +32,11 @@ header ul li:first-child{
 
 header ul li:last-child{
     margin-left: 65%;
+}
+
+header ul li a:hover {
+    font-size: 26px;
+    text-decoration: underline;
 }
 
 main .sobre h2 {
@@ -76,4 +82,54 @@ main .sabores ul li {
 
 main .sabores ul li::before {  
     content: "★ ";
+}
+
+.cadastro {
+    text-align: center;
+}
+
+.cadastro li {
+    padding: 0.75em;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #ff3e6f;
+}
+
+.cadastro li input {
+    font-size: 19px;
+}
+
+.cadastro p {
+    padding: 0.75em;
+}
+
+main div div {
+    text-align: center;
+}
+
+.submit {
+    margin-top: 1.75em;
+    font-size: larger;
+    padding: 0.90em 7.80em;
+    background-color: #f888a4;
+    color: #ff3e6f;
+    font-weight: bolder;
+    border-width: 2px;
+    border-color: #ff3e6f;
+    border-radius: 15px;
+}
+
+.submit:hover {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer {
+    font-size: large;
+    color: white;
+    background-color: #ffa7be;
+    margin-top: 13%;
+    padding: 2em;
+    text-align: center;
 }
